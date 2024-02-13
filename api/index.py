@@ -12,16 +12,17 @@ class handler(BaseHTTPRequestHandler):
 <!DOCTYPE html>
 <html>
 <head>
-<title>Titolo</title>
+<title>XRPL DID</title>
 <style>
 body {{
+    background_color: #ffcccc
     font-family: Arial, sans-serif;
 }}
 </style>
 </head>
 <body>
-<h1>Titolo</h1>
-<h2>Sottotitolo</h2>
+<h1>XRPL DID</h1>
+<h2>Una demo da implementare</h2>
 </body>
 </html>
 """
