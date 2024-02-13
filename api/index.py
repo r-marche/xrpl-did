@@ -10,5 +10,5 @@ class handler(BaseHTTPRequestHandler):
         
         #self.wfile.write(bytes(HTML_TEMPLATE, "utf8"))
         
-        self.wfile.write(HTML_SOURCE.encode('utf-8'))
+        self.wfile.write("<h1>Titolo</h1> <h2>Sottotitolo</h2>".encode('utf-8'))
         return
