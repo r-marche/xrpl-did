@@ -2,10 +2,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 class handler(BaseHTTPRequestHandler):
     HTML_SOURCE = """
-<body>
 <h1>Titolo</h1>
 <h2>Sottotitolo</h2>
-</body>
 """
 
     def do_GET(self):
