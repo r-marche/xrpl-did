@@ -14,10 +14,10 @@ class handler(BaseHTTPRequestHandler):
 <head>
 <title>XRPL DID</title>
 <style>
-body {{
-    background-color: #ffcccc
+body {
+    background-color: #ffcccc;
     font-family: Arial, sans-serif;
-}}
+}
 </style>
 </head>
 <body>
