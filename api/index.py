@@ -6,12 +6,6 @@ class handler(BaseHTTPRequestHandler):
 <html>
 <head>
 <title>XRPL DID</title>
-<style>
-body {{
-    background-color: #ffffff;
-    font-family: Arial, sans-serif;
-}}
-</style>
 </head>
 <body>
 <h1>Titolo</h1>
