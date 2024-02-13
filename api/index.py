@@ -15,7 +15,7 @@ class handler(BaseHTTPRequestHandler):
 <title>XRPL DID</title>
 <style>
 body {{
-    background_color: #ffcccc
+    background-color: #ffcccc
     font-family: Arial, sans-serif;
 }}
 </style>
