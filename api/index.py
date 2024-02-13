@@ -19,7 +19,7 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type','text/html')
         self.end_headers()
         
-        self.wfile.write(bytes(HTML_TEMPLATE, "utf8"))
+        #self.wfile.write(bytes(HTML_TEMPLATE, "utf8"))
         
-        #self.wfile.write('Hello, world!'.encode('utf-8'))
+        self.wfile.write("Hello, world!".encode('utf-8'))
         return
