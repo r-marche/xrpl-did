@@ -21,5 +21,5 @@ class handler(BaseHTTPRequestHandler):
         
         #self.wfile.write(bytes(HTML_TEMPLATE, "utf8"))
         
-        self.wfile.write("Hello, world!".encode('utf-8'))
+        self.wfile.write("<h1>Hello, world!</h1>".encode('utf-8'))
         return
